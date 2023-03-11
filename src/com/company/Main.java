@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
 
 abstract class Animal {
     public String name;
@@ -20,7 +19,6 @@ abstract class Animal {
 }
 class Dog extends Animal {
     String breed;
-
     Dog(String name, String location, String breed) {
         super(name, location);
         this.breed = breed;
@@ -101,7 +99,7 @@ class Veterinar {
         this.name = name;
     }
     void treatAnimal(Animal animal) {
-        System.out.println(animal.name + " пришло на приём с сытостью" + " " + animal.food + ", которого привезли из " + animal.location);
+        System.out.println(animal.name + " пришел на приём с сытостью" + " " + animal.food + ", которого привезли из " + animal.location);
     }
 }
 public class Main {
