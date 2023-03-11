@@ -1,6 +1,5 @@
 package com.company;
 
-
 abstract class Animal {
     public String name;
     public String type;
